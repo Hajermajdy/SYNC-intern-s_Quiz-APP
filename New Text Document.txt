@@ -1,0 +1,24 @@
+<div class="nameque">
+                        
+                    </div>
+                    <div class="answer">
+                        <div class="option">
+                            <!-- <button class="optionbtn">HTML</button>
+                            <button class="optionbtn">CSS</button>
+                            <button class="optionbtn">JS</button>
+                            <button class="optionbtn">VUE</button> -->
+                        </div>
+                        <button class="nextque">Next</button>
+                    </div>
+                    <div class="movefromlevels">
+                        <!-- <div class="que one" ></div>
+                        <div class="que" ></div>
+                        <div class="que" ></div>
+                        <div class="que" ></div>
+                        <div class="que" ></div>
+                        <div class="que" ></div>
+                        <div class="que" ></div>
+                        <div class="que" ></div>
+                        <div class="que" ></div>
+                        <div class="que" ></div> -->
+                    </div>

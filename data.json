@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Look at thi serries: 2, 4, 6, 8, 10,... what number shoud comr next?",
+    "answer": ["11", "12", "13", "14"],
+    "correct_answer": "12"
+  },
+  {
+    "title": "Look at thi serries: 58, 52, 46, 40, 34,... what number shoud comr next?",
+    "answer": ["26", "28", "30", "32"],
+    "correct_answer": "28"
+  },
+  {
+    "title": "Look at thi serries: 40, 40, 47, 47, 54, ...what number shoud comr next?",
+    "answer": ["40", "44", "54", "61"],
+    "correct_answer": "54"
+  },
+  {
+    "title": "Look at thi serries: 544, 509, 474, 439,... what number shoud comr next?",
+    "answer": ["404", "414", "420", "445"],
+    "correct_answer": "404"
+  },
+  {
+    "title": "Look at thi serries: 201, 202, 204, 207,... what number shoud comr next?",
+    "answer": ["205", "208", "210", "211"],
+    "correct_answer": "211"
+  },
+  {
+    "title": "Look at thi serries: 8, 22, 8, 28, 8,... what number shoud comr next?",
+    "answer": ["9", "29", "32", "34"],
+    "correct_answer": "34"
+  },
+  {
+    "title": "Look at thi serries: 80, 10, 70, 15, 60,... what number shoud comr next?",
+    "answer": ["20", "25", "30", "50"],
+    "correct_answer": "20"
+  },
+  {
+    "title": "Look at thi serries: 36, 34, 30, 28, 24,... what number shoud comr next?",
+    "answer": ["20", "22", "23", "26"],
+    "correct_answer": "22"
+  },
+  {
+    "title": "Look at thi serries: 22, 21, 23, 22, 24, 23... what number shoud comr next?",
+    "answer": ["22", "24", "25", "26"],
+    "correct_answer": "25"
+  },
+  {
+    "title": "Look at thi serries: 3, 4, 7, 8, 11, 12... what number shoud comr next?",
+    "answer": ["7", "10", "14", "15"],
+    "correct_answer": "15"
+  }
+]

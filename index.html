@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <!-- File CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Goolge Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <!-- strat screen -->
+    <section class="sec1">
+        <button class="btn" id="btnstart">
+            <div>
+                <p>start quiz</p>
+                <div class="bg"></div>
+            </div>
+        </button>
+    </section>
+    <!-- quiz screen -->
+    <section class="sec2 active">
+        <div class="conteiner">
+            <div class="lefthalf">
+            </div>
+            <div class="rigthhalf">
+                <div class="quizinfo">
+                    <div class="data">
+                        <div class="nameque"></div>
+                    <div class="answer">
+                        <div class="option"></div>
+                        <button class="nextque">Next</button>
+                    </div>
+                    <div class="movefromlevels"></div>    
+                    </div>
+
+                    <div class="score active" >
+                        <h3>SCORE:</h3>
+                        <button>Try Again</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="apply.js" defer></script>
+</body>
+</html>

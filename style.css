@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* strat screen  */
+.sec1 {
+    height: 100vh;
+    background-image: url(img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.sec1 .btn{
+    position: relative;
+    top: 50%;
+    left: 38%;
+    padding:10px 60px ;
+    background-color: rgb(255, 247, 236);
+    border: none;
+    border-radius: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Rowdies';
+   
+}
+.sec1 .btn p{
+    position: relative;
+    z-index: 2;
+}
+.sec1 .btn div .bg{
+    position: absolute;
+    top: 0.1px;
+    right: 0.001px;
+    z-index: 1;
+    background-color: rgb(255, 174, 0);
+    width: 37px;
+    height: 37px;
+    border-radius: 18px;
+    transition: width 1s;
+}
+.sec1 .btn:hover .bg{
+    transition-timing-function: linear;
+    width: 194px;
+}
+.active{
+    display: none;
+}
+/* quiz screen */
+.sec2{
+    height: 100vh;
+}
+.sec2 .conteiner{
+    display: flex;
+}
+.sec2 .conteiner .lefthalf{
+    background-image: url(img/5159502.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+}
+.sec2 .conteiner .rigthhalf{
+    height: 100vh;
+    width: 70%;
+    position: relative;
+}
+
+.sec2 .conteiner .rigthhalf .quizinfo{
+    position: absolute;
+    left: 16%;
+    top: 22%;
+    width: 70%;
+    height: 55%;
+    border-radius: 15px;
+    border: 1px solid  rgba(255, 174, 0, 0.711);
+} 
+.sec2 .conteiner .rigthhalf .quizinfo .nameque{
+    margin-bottom: 10px;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 174, 0, 0.711);
+    font-weight: bold;
+}
+
+.sec2 .conteiner .rigthhalf .quizinfo .answer{
+    flex-wrap: wrap;
+    padding: 10px 0px 20px 40px;
+    border-bottom: 1px solid rgba(255, 174, 0, 0.711);
+}
+.sec2 .conteiner .rigthhalf .quizinfo .answer .option{
+    background-color: rgba(240, 242, 242, 0.641);
+    width: 410px;
+}
+.sec2 .conteiner .rigthhalf .quizinfo .answer .option button{
+    margin: 20px;
+    width: 160px;
+    height: 30px;
+    border: 1px solid rgba(255, 174, 0, 0.711);
+    background-color: rgb(255, 255, 255);
+}
+.sec2 .conteiner .rigthhalf .quizinfo .answer .option button:hover{
+    cursor: pointer;
+}
+.sec2 .conteiner .rigthhalf .quizinfo .answer .nextque{
+    width: 70px;
+    height: 30px;
+    margin-left: 350px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgba(250, 171, 0, 0.778);
+    color: rgb(252, 252, 252);
+    font-weight: bold;
+    cursor: pointer;
+}
+.sec2 .conteiner .rigthhalf .quizinfo .movefromlevels{
+    width: 100%;
+    height: 37px;
+    display: flex;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgba(240, 242, 242, 0.733);
+}
+.sec2 .conteiner .rigthhalf .quizinfo .movefromlevels .que{
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgba(255, 174, 0, 0.711);
+    border-radius: 100%;
+}
+.sec2 .conteiner .rigthhalf .quizinfo .movefromlevels .one{
+    background-color: rgba(250, 171, 0, 0.778);
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(255, 174, 0, 0.711);
+    border-radius: 100%;
+}
+.sec2 .conteiner .rigthhalf .quizinfo .movefromlevels .rigth{
+    background-color: rgba(4, 250, 0, 0.778);
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(4, 250, 0, 0.778);
+    border-radius: 100%;
+}
+.sec2 .conteiner .rigthhalf .quizinfo .movefromlevels .wrong{
+    background-color: rgba(250, 0, 0, 0.778);
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(250, 0, 0, 0.778);
+    border-radius: 100%;
+}
+
+.sec2 .conteiner .rigthhalf .quizinfo .score{
+    padding-left: 30px;
+    padding-top: 40px;
+    position: relative;
+    height: 100%;
+}
+.sec2 .conteiner .rigthhalf .quizinfo .score .score{
+    font-size: 50px;
+    position: absolute;
+    top: 17%;
+    left: 35%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgba(255, 190, 48, 0.974);
+    text-align: center;
+    padding-right: 30px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(255, 203, 92, 0.974);
+}
+
+.sec2 .conteiner .rigthhalf .quizinfo .score button{
+    position: absolute;
+    top:70%;
+    left:37%;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 40px;
+    color: white;
+    background-color:rgba(172, 28, 28, 0.895) ;
+}
