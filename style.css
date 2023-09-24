@@ -4,7 +4,7 @@
 }
 /* strat screen  */
 .sec1 {
-    height: 100vh;
+    height: 94vh;
     background-image: url(img/background.jpg);
     background-position: center;
     background-size: cover;
@@ -185,3 +185,18 @@
     color: white;
     background-color:rgba(172, 28, 28, 0.895) ;
 }
+
+/* Footer */
+footer {
+    height: 27px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(152, 150, 150);
+    align-items: center;
+    padding: 10px 10px;
+    color: white;
+    font-size: 17px;
+  }
